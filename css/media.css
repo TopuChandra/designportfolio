@@ -1903,6 +1903,678 @@
         }
 
     }
+    @media(min-width:320px) {
+
+        /* navbar media part css start */
+        .navbar-light .navbar-toggler {
+            color: #fff;
+            border: none;
+        }
+
+        .navbar-light .navbar-toggler i {
+            font-size: 30px;
+            padding-right: 05px
+        }
+
+        .navbar {
+
+            text-align: center;
+            z-index: 9999;
+        }
+
+        .navbar_telephone {
+            visibility: hidden;
+        }
+
+        .navbar-light .navbar-nav .nav-link.active::after {
+            width: 31%;
+            transform: translateX(112%);
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover:after {
+
+            width: 31%;
+            transform: translateX(112%);
+
+        }
+
+        /* navbar media part css end */
+
+        /* banner part media start */
+        .social_icon {
+            margin-top: 0px;
+            text-align: center;
+        }
+
+        .social_icon a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            margin-left: 05px;
+        }
+
+        .social_icon a i {
+            font-size: 20px;
+            line-height: 40px;
+
+        }
+
+        .banner_content {
+            margin-top: 15px;
+            position: relative;
+        }
+
+        .banner_content h1 {
+            font-size: 50px;
+            text-align: center;
+
+        }
+
+        .banner_content h2 {
+            font-size: 16px;
+            margin-top: 16px;
+            text-align: center;
+        }
+
+        .banner_content span {
+            font-size: 16px;
+
+        }
+
+        .banner_content p {
+            margin-top: 15px;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: 5px
+        }
+
+        .banner_content a {
+            font-size: 16px;
+            padding: 10px 12px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: -490px;
+            right: 50%;
+            z-index: 999;
+            transform: translateX(53%);
+        }
+
+        /* banner part media css end */
+        /* about me part media css start */
+
+        .about_content h2 {
+
+            font-size: 25px;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .about_content h2::before {
+            width: 126px;
+            left: 81px;
+        }
+
+        .about_content h2::after {
+            width: 90px;
+            left: 99px;
+        }
+
+        .about_content p {
+            font-size: 14px;
+            padding-top: 15px;
+        }
+
+        .about_bottom .tag p {
+            font-size: 14px;
+        }
+
+        .address h4 {
+
+            font-size: 14px;
+            padding-left: 25px;
+        }
+
+        .address h4::after {
+
+            top: 10px;
+
+        }
+
+        .cv_btn a {
+            font-size: 16px;
+            padding: 10px 12px;
+            border-radius: 5px;
+            position: absolute;
+            transform: translateX(-50%);
+            bottom: -20px;
+            left: 50%;
+        }
+
+        /* about me part media css end */
+        /* service part media part css start */
+        .service_header h1 {
+
+            font-size: 25px;
+
+        }
+
+        .service_header h1::before {
+            width: 122px;
+        }
+
+        .service_header h1::after {
+            width: 85px;
+        }
+
+        #service {
+            margin-top: 50px;
+
+        }
+
+        #service .right {
+
+            bottom: -60px;
+            left: 55%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        #service .left {
+
+            bottom: -60px;
+            left: 37%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+
+        }
+
+        /* service media css end */
+        /* our work media start */
+
+        #work {
+            margin-top: 103px;
+        }
+
+        .work_head h1 {
+            font-size: 25px;
+        }
+
+        .work_head h1::before {
+            width: 130px;
+        }
+
+        .work_head h1::after {
+            width: 90px;
+        }
+
+        #pills-tab {
+            margin-top: 20px;
+        }
+
+        #work .extra_device {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        /* work part media css end */
+        /* team part media start */
+
+        #team {
+            margin-top: 50px;
+        }
+
+        .team_head h1 {
+            font-size: 25px;
+        }
+
+        .team_head h1::before {
+            width: 80px;
+
+        }
+
+        .team_head h1::after {
+
+            width: 50px;
+
+        }
+
+        .team_head {
+            margin-bottom: 30px;
+        }
+
+        .team_head p {
+
+            font-size: 14px;
+            padding-top: 18px;
+        }
+
+        .team_item {
+            margin-bottom: 15px;
+        }
+
+        .overlay_content {
+            width: 260px;
+            height: 260px;
+
+        }
+
+        .overlay_content h2 {
+
+            font-size: 20px;
+            padding-top: 138px;
+        }
+
+        .overlay_content h3 {
+            font-size: 16px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        .social_icon a {
+
+            width: 30px;
+            height: 30px;
+            margin-left: 2px;
+        }
+
+        .social_icon a i {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        .team_img::before {
+
+            height: 130px;
+
+        }
+
+        .team_img::after {
+
+            height: 130px;
+
+        }
+
+        .team_content h3 {
+
+            font-size: 16px;
+            top: 232px;
+            left: -22px;
+        }
+
+
+
+        .team_content h4 {
+
+            font-size: 16px;
+            bottom: 47px;
+            right: 163px;
+
+        }
+
+        /* team part media css end */
+
+        /* blog part css start */
+        #blog {
+            margin-top: 45px;
+        }
+
+        .blog_head h1 {
+
+            font-size: 25px;
+        }
+
+        .blog_head h1::before {
+
+            width: 95px;
+        }
+
+        .blog_head h1::after {
+
+            width: 65px;
+        }
+
+        .blog_head p {
+
+            font-size: 14px;
+            padding-top: 16px;
+        }
+
+        .blog_item {
+            margin-top: 15px;
+        }
+
+        .blog_content h2 {
+
+            font-size: 18px;
+        }
+
+        .blog_content p {
+            font-size: 14px;
+        }
+
+        .blog_footer span {
+
+            font-size: 16px;
+        }
+
+        /* skill part media css */
+        #skill {
+            margin-top: 50px;
+        }
+
+        .skill_bar {
+            margin-top: 25px;
+
+        }
+
+        .skill_bar span {
+
+            font-size: 16px;
+
+        }
+
+        .percentage {
+
+            left: 85%;
+        }
+
+        .skill_bar2 {
+            margin-top: 16px;
+        }
+
+        .skill_bar2 span {
+
+            font-size: 16px;
+
+        }
+
+        .percentage2 {
+
+            left: 85%;
+        }
+
+        .skill_bar3 {
+            margin-top: 16px;
+        }
+
+        .skill_bar3 span {
+
+            font-size: 16px;
+
+        }
+
+        .percentage3 {
+
+            left: 85%;
+        }
+
+        .skill_bar4 {
+            margin-top: 16px;
+        }
+
+        .skill_bar4 span {
+
+            font-size: 16px;
+
+        }
+
+        .percentage4 {
+
+            left: 85%;
+        }
+
+        .skill_bar5 {
+            margin-top: 16px;
+        }
+
+        .skill_bar5 span {
+
+            font-size: 16px;
+
+        }
+
+        .percentage5 {
+
+            left: 85%;
+        }
+
+        .skill_bar6 {
+            margin-top: 16px;
+        }
+
+        .skill_bar6 span {
+
+            font-size: 16px;
+
+        }
+
+        .percentage6 {
+
+            left: 85%;
+        }
+
+        /* blog part media css end */
+
+        /* review part media css start */
+
+        #review {
+            margin-top: 50px;
+        }
+
+        .review_part h1 {
+            font-size: 25px;
+        }
+
+        .review_part h1::before {
+            width: 104px;
+        }
+
+        .review_part h1::after {
+
+            width: 70px;
+        }
+
+        .review_item {
+            margin-top: 0px;
+        }
+
+        .rv_content p {
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 0;
+            text-align: center;
+            padding: 0 5px;
+            padding-top: 5px;
+        }
+
+        .rv_content p {
+            margin-top: 31px;
+        }
+
+        .rv_img img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .rv_img {
+            bottom: 6px;
+        }
+
+        .star i {
+            font-size: 11px;
+            padding-top: 28px;
+        }
+
+        .rv_person h3 {
+            font-size: 16px;
+        }
+
+        #review .right {
+
+            bottom: -60px;
+            left: 55%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        #review .left {
+
+            bottom: -60px;
+            left: 37%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+
+        }
+
+        /* review part media css end */
+        /* contact part css media start */
+        #contact {
+            margin-top: 105px;
+        }
+
+        .contact_head h1 {
+
+            font-size: 25px;
+
+        }
+
+        .contact_head h1::before {
+
+            width: 115px;
+        }
+
+        .contact_head h1::after {
+
+            width: 75px;
+
+        }
+
+        .address_item h4 {
+
+            font-size: 16px;
+
+        }
+
+        .address_item p {
+
+            font-size: 14px;
+
+        }
+
+        .contact h2 {
+
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+
+        .contact_item {
+            padding-bottom: 30px;
+        }
+
+        .contact {
+            margin-top: 0px;
+        }
+
+        .form .name {
+            width: 290px;
+        }
+
+        .form .phone {
+            width: 290px;
+        }
+
+        .form .email {
+            width: 290px;
+        }
+
+        .form .sub {
+            width: 290px;
+        }
+
+        .form textarea {
+
+            width: 290px;
+        }
+
+        .submit_btn a {
+            font-size: 16px;
+            padding: 10px 12px;
+            border-radius: 5px;
+
+        }
+
+        #footer_item {
+            margin-top: 0px;
+        }
+
+        .footer_item h4 {
+
+            font-size: 14px;
+
+        }
+
+        .footer_item p {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+    }
+
+    @media(min-width:360px) {
+        .banner_content a {
+            bottom: -554px;
+        }
+
+        .about_content h2::before {
+            left: 100px;
+        }
+
+        .about_content h2::after {
+
+            left: 117px;
+        }
+
+        .overlay_content {
+            width: 300px;
+            height: 300px;
+        }
+
+        .overlay_content h2 {
+
+            padding-top: 173px;
+        }
+
+        .team_img::before {
+            height: 150px;
+        }
+
+        .team_img::after {
+            height: 150px;
+        }
+
+        .team_content h3 {
+
+            top: 260px;
+
+        }
+
+        .team_content h4 {
+
+            bottom: 55px;
+            right: 198px;
+        }
+
+        .form {
+            margin-left: 18px;
+        }
+    }
 
     @media(min-width:480px) {
 
